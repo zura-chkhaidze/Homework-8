@@ -1,0 +1,247 @@
+.header{
+    width:1920px;
+    max-width: 100%;
+    height:111px;
+   
+    display: flex;
+    justify-content: space-between;
+    
+}
+.main{
+    color:#3D37F1 ;
+    font-size:32px ;
+    margin-top:67px ;
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 87px;
+    margin-right: 80px;
+    
+
+}
+.li{
+    color: #3D37F1;
+    font-size:20px ;
+    font-weight: bold;
+    margin-left:30px ;  
+}
+
+.main-div{
+    width:1920px ;
+    max-width: 100%;
+    height:1072px ;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.box-1{
+    width:604px ;
+    max-width:100% ;
+    height:527px ;
+    
+    margin-top: 262px;
+}
+.box-2{
+    width:604px ;
+    max-width:100% ;
+    height: 527px;
+    margin-top: 262px;
+    margin-right: 80px;
+    
+}
+.img{width: 604px;  max-width:100% ;}
+.h2{
+    font-size: 78px;
+    font-weight: bold;
+    color: #534D4D;
+    
+}  
+.p{
+    font-size:22px ;
+    margin-top: 42px;
+    color: #534D4D;
+} 
+.box-1-small-div{
+    position: relative;
+    width:263px ;
+    max-width:100% ;
+    height:76px ;
+    margin-top:164px ;
+    background-color: #3D37F1;
+    border-radius: 50px;
+    
+}
+.waving-hand{
+    margin-top:24px ;
+    margin-left:30px;
+}
+
+
+.p-small{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);}
+
+    /* section-2*/
+.main-div-1{
+    width:1920px ;
+    max-width:100% ;
+    height:1424px ; 
+}    
+.h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: #3D37F1;
+    text-align: center;
+}
+.h3{
+    font-size: 40px;
+    color: #5A5454;
+    margin-top:17px ;
+    margin-bottom:21px ;
+    text-align: center;
+}
+.p-2{
+   width: 712px;
+   max-width:100% ;
+   height: 85px;
+   font-size: 18px;
+   text-align: center;
+   margin: 0 auto;
+}
+
+.big-box{
+    width:1169px ;
+    max-width:100% ;
+    height: 962px;
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.orange-box{
+    width:370px ;
+    max-width:100% ;
+    height: 451px;
+    background-color: #FBBC7A; 
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    background-image: linear-gradient(#FBBA77,#DFA871);  
+}
+.h4{
+    font-size: 22px;
+    color: white;
+    margin-top:57px ;
+}
+.p-text{
+    font-size:16px ;
+    color: white;
+    width:328px ;
+    max-width:100% ;
+    text-align: center;
+    margin-top:13px ;
+}
+.read-more-box{
+    position: relative;
+    width: 131px;
+    max-width:100% ;
+    height: 45px;
+    margin-top: 11px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    transition: 0.5s;
+    
+}
+.p-read-more{
+    position: absolute;
+    color: white;
+    text-align: center;
+    padding: 12px 0 13px 30px;
+
+}
+
+.sky-blue-box{
+    width:370px ;
+    max-width:100% ;
+    height: 451px;
+    background-color: #41EAE3;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(#41EAE3,#2293B7);
+    filter:drop-shadow(0 40px 40px #C5C3F9);
+   
+}
+.burgundy-box{
+    width:370px ;
+    max-width:100% ;
+    height: 451px;
+    background-color:#69529F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(#69529F,#463864);
+    filter:drop-shadow(0 40px 40px #C5C3F9);
+}
+.blue-box{
+    width:370px ;
+    max-width:100% ;
+    height: 451px;
+    background-color:#4386D2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(#4386D2,#0962C5);
+    filter:drop-shadow(0 40px 40px #C5C3F9);
+
+}
+.violet-box{
+    width:370px ;
+    max-width:100% ;
+    height: 451px;
+    background-color:#A5A2F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(#A5A2F6,#564FD6);
+    filter:drop-shadow(0 40px 40px #C5C3F9);
+}
+.red-box{
+    width:370px ;
+    max-width:100% ;
+    height: 451px;
+    background-color:#FF8088;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(#FF8088,#984141);
+    filter:drop-shadow(0 40px 40px #C5C3F9);
+}
+.read-more-box:hover{
+    background-color: white;
+    
+    cursor: pointer;
+}
+.p-read-more:hover{color: black;}
+
+
+
+    
+
+
+   
+
